@@ -1,0 +1,4 @@
+-uses feature adalah cara untuk membatasi pengguna melalui file AndroidManifest.xml untuk menggunakan applikasi, apabila hardware pengguna tersebut
+-tidak compatibility/sesuai dengan kebutuhan applikasinya.
+
+-untuk mengetahui cara membuat uses feature, lihat di file AndroidManifest.xml, code 003.

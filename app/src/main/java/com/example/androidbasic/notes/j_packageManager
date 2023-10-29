@@ -1,0 +1,4 @@
+-package manager adalah class yang bisa digunakan untuk melakukan pengecekan ketersediaan fitur pada hardware pengguna,
+-misal apakah hardware/phone pengguna tersebut memiliki camera, fingerprint, blutooth, dan lain-lain.
+
+-untuk mengeathui cara penggunaan class packageManager, lihat di class MainActivity, code 005.

@@ -1,0 +1,4 @@
+-manifest file adalah file untuk mengatur config-config applikasi android contohnya seperti
+-mengatur Activity, Permission, dan lain-lain.
+
+-manifest file terletak pada package manifest, file AndroidManifest.xml

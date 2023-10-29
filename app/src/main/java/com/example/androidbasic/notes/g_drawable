@@ -1,0 +1,4 @@
+-drawable adalah resource khusus untuk menyimpan file-file seperti img, icon, dan masih banyak lagi untuk bisa digunakan pada applikasi
+-android kita nantinya.
+-drawable resource file wajib disimpan di dalam package res.drawable.
+-untuk mengetahui cara pemanggilan drawable resource lihat di package res.layout, file layout_linear.xml, code 002.

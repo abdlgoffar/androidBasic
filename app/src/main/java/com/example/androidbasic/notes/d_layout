@@ -1,0 +1,27 @@
+
+-layout adalah container tampilan UI yang dibuat menggunakan file.xml, android mempunyai tiga konsep pembuatan layout
+-yang ketiga konsep tersebut mempunyai karakteristik masing-masing, tiga konsep tersebut yaitu linear layout, relative layout, dan constraint layout.
+-contoh cara penggunaan layout lihat di package res.layout, file activity_main.xml
+
+-setiap layout yang sudah dibuat menggunakan file.xml, maka wajib layout tersebut di panggil di Activity class, agar layout tersebut bisa di tampilkan.
+-untuk mengetahui cara pemanggilan layout pada Activity class, lihat di class MainActivity, code 002
+
+
+-01 linear layout
+-linear layout adalah layout yang akan membuat component nya menumpuk secara vertikal dari atas ke bawah atau secara horizaontal dari samping kiri ke kanan.
+-untuk mengetahui cara pembuatan linear layout lihat di package res.layout, file layout_linear.xml
+
+
+02. relative layout
+-relative layout adalah layout yang akan membuat posisi component nya bisa ditempatkan di manapun, artinya disini terdapat kebebasan dalam menaruh posisi component nya.
+-untuk mengetahui cara pembuatan relative layout lihat di package res.layout, file layout_relative.xml
+
+03. constraint layout
+-constraint layout adalah layout yang hampir sama seperti relative layout dimana  posisi component nya bisa di tempatkan dimanapun, cuma yang membedakannya
+-constraint layout bisa meng include layout lain di dalamnya.
+-untuk mengetahui cara pembuatan constraint layout lihat di package res.layout, file layout_constraint.xml
+
+04. merge layout
+-merge layout adalah layout yang dibuat terpisah, agar nantinya layout ini bisa di include di dalam layout lain.
+-untuk mengetahui cara pembuatan merge layout lihat di package res.layout, file layout_merge.xml.
+-dan untuk mengeatahui cara menginclude merge layout ke dalam layout lain lihat di package res.layout, file layout_linear.xml, code 001.

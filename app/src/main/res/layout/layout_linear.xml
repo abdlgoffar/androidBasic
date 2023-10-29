@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 'android:orientation' menjadi penentu kemana tumpukan component pada LinearLayout-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text number two"/>
+    <TextView
+        android:id="@+id/textThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text number three"/>
+
+    <EditText
+        android:id="@+id/helloEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/helloText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/helloButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="click me"
+        android:textColor="@color/design_default_color_primary"/>
+
+<!--    code 001, contoh cara menginclude merge layout-->
+    <include layout="@layout/layout_merge"/>
+
+
+<!--    code 002, cara pemangilan drawable resource, cukup menggunakan element 'android:src' -->
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/logo"/>
+
+</LinearLayout>

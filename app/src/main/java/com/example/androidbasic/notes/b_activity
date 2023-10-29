@@ -1,0 +1,13 @@
+-pada android activity adalah class yang berguna untuk menjalankan file view/tampilan ui pada appplikasi android
+-bukan hanya itu class activity bisa digunakan untuk pembuatan logic pada applikasi android.
+
+-pada applikasi android kita bebas membuat berapapun class Activity.
+
+-contoh class Activity pada applikasi ini adalah class MainActivity.
+
+-yang perlu di ingat ketika membuat class Activity adalah kita perlu menconfigurasikan pada manifest file.
+-contoh cara menconfigurasikan class activity lihat di file AndroidManifest.xml, code 001
+
+-dan yang perlu diingat lagi apabila ingin membuat sebuah Activity yang running pertama kali saat applikasi android dibuka
+-maka pada configurasi manifest file nya, harus diberi element intent filter
+-contoh pemberian element intent filter, lihat di  AndroidManifest.xml, code 002

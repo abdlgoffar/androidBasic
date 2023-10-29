@@ -1,0 +1,2 @@
+-action listener adalah sebuah aksi, misalkan dimana sebuah Button di click.
+-untuk mengetahui cara pembuatan action listener pada Component Button lihat di class MainActivity, code 003.

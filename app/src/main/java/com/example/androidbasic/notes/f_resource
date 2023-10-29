@@ -1,0 +1,7 @@
+-resource adalah asset-asset yang disimpan terpisah di dalam package res, contoh jenis-jenis resource bisa berupa image,
+-icon, string/text, color, animation, bahkan sebuah layout.
+
+-string/text resource
+-string/text resource adalah data yang berupa file.xml yang wajib di simpan di dalam package res.values, file strings.xml.
+-untuk mengetahui cara pembuatan string/text resource lihat di  package res.values, file strings.xml.
+-dan untuk mengeathui cara pemanggilan string resource pada class Activity, lihat di class MainActivity, code 004.

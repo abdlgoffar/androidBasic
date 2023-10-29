@@ -1,0 +1,2 @@
+-on create method adalah method yang wajib di panggil oleh class Activity untuk menjalankan tampilan/UI applikasi android.
+-contoh cara penggunaan method on create lihat di class MainActivity, code 001

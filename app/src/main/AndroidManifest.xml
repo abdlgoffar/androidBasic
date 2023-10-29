@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--    code 003, cara pembuatan uses feature-->
+<!--    artinya disini hardware/phone pengguna wajib support fitur fingerprint-->
+    <uses-feature android:name="android.hardware.fingerprint" android:required="true"/>
+<!--    artinya disini hardware/phone pengguna wajib support fitur camera-->
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+<!--code 003-->
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidBasic"
+        tools:targetApi="31">
+
+<!--        code 001 cara menconfigurasikan class Activity-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+<!--            code 002 cara pemberian element intent filter-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+<!--            code 002-->
+        </activity>
+<!--        code 001-->
+    </application>
+
+</manifest>

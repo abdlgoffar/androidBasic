@@ -1,0 +1,9 @@
+-resource string localization adalah cara penyediaan data string/text app android pengguna sesuai bahasa yang digunakan oleh hp android pengguna.
+-yang membedakan resource string biasa dengan resource string localization adalah hanya pada penamaan packagenya,
+-misal pada resource string biasa, nama untuk packagenya adalah 'values', sementara untuk resource string localization nama untuk packagenya
+-adalah 'values-in' untuk pengguna hp android dengan bahasa indonesia.
+
+-by default jika tidak menerapkan resource string localization, maka data text/string yang digunakan adalah data resource string biasa yang berada di package 'values'
+
+-untuk membuat package khusus resource string localization, perhatikan langkah berikut: 1. click kanan pada package res, 2. pilih 'new', 3. pilih 'AndroidResourceDirectory',
+-4. pada list 'Available Qualifiers' pilih 'Locale', 5. click button panah kanan, 6. pada list 'language' pilih bahasa yang di butuhkan, 7. lalu click OK.
